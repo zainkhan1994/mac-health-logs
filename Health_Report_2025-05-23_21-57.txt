@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-23
+
+🕒 Uptime: 13:27 ✅ No restart needed.
+🧠 Memory: 17 MB ⚠️ Close some apps.
+💾 Disk Space: 26 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        5 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    45.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    12.7 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.114/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2040 --time-ticks-at-unix-epoch=-1748007013838496 --launch-time-ticks=28246381538 --shared-files --field-trial-handle=1718379636,r,16432292708252176949,12969552393226505343,262144 --variations-seed-version=20250522-050036.489000 --seatbelt-client=557
+    12.2 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+     7.4 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.114/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAMAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=1718379636,r,16432292708252176949,12969552393226505343,262144 --variations-seed-version=20250522-050036.489000 --seatbelt-client=16
+     4.7 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+     4.4 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
