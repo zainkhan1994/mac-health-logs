@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-24
+
+🕒 Uptime:  7:56 ✅ No restart needed.
+🧠 Memory: 21 MB ⚠️ Close some apps.
+💾 Disk Space: 29 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        5 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    36.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    22.4 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.114/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1524 --time-ticks-at-unix-epoch=-1748117588844529 --launch-time-ticks=27508936572 --shared-files --field-trial-handle=1718379636,r,12367331423723471791,8806005448816286008,262144 --variations-seed-version=20250523-130006.237000 --seatbelt-client=76
+    15.3 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+    13.5 /usr/sbin/coreaudiod
+     3.9 /Applications/Rewind.app/Contents/MacOS/Rewind
+     3.1 /usr/libexec/syspolicyd
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
