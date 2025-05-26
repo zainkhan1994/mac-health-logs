@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-25
+
+🕒 Uptime:  8:19 ✅ No restart needed.
+🧠 Memory: 12 MB ⚠️ Close some apps.
+💾 Disk Space: 28 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        5 ✅ Normal range.
+🔋 Battery: 99% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    33.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    22.4 /Applications/Rewind.app/Contents/MacOS/Rewind
+    16.7 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.114/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=192 --time-ticks-at-unix-epoch=-1748196833292584 --launch-time-ticks=1152102036 --shared-files --field-trial-handle=1718379636,r,5960201330249110657,14028149083629525663,262144 --variations-seed-version=20250523-130006.237000 --seatbelt-client=608
+    13.5 /usr/sbin/coreaudiod
+     4.4 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+     2.3 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/AXVisualSupportAgent.app/Contents/MacOS/AXVisualSupportAgent launchd -s
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
