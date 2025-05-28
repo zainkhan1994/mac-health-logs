@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-28
+
+🕒 Uptime:  3:40 ✅ No restart needed.
+🧠 Memory: 26 MB ⚠️ Close some apps.
+💾 Disk Space: 27 GB free ✅ Plenty of space.
+🌐 Internet: ❌ No connection!
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        5 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    19.3 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=564 --time-ticks-at-unix-epoch=-1748439275519743 --launch-time-ticks=7905597211 --shared-files --metrics-shmem-handle=1752395122,r,14323283549662803688,1877283403606718004,2097152 --field-trial-handle=1718379636,r,8927291504079718004,1159972331174312422,262144 --variations-seed-version=20250527-050039.486000 --seatbelt-client=243
+    14.7 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=655 --time-ticks-at-unix-epoch=-1748439275519743 --launch-time-ticks=9977010485 --shared-files --metrics-shmem-handle=1752395122,r,8751441089096158016,18265660797124410769,2097152 --field-trial-handle=1718379636,r,8927291504079718004,1159972331174312422,262144 --variations-seed-version=20250527-050039.486000 --seatbelt-client=96
+    10.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+     1.7 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAMAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=1752395122,r,4043793009164195641,4281329126683698239,262144 --field-trial-handle=1718379636,r,8927291504079718004,1159972331174312422,262144 --variations-seed-version=20250527-050039.486000 --seatbelt-client=26
+     1.5 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+     1.4 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --shared-files --metrics-shmem-handle=1752395122,r,16291705942407575210,16382729098994331148,524288 --field-trial-handle=1718379636,r,8927291504079718004,1159972331174312422,262144 --variations-seed-version=20250527-050039.486000 --seatbelt-client=22
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
