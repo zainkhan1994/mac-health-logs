@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-29
+
+🕒 Uptime:  2:46 ✅ No restart needed.
+🧠 Memory: 42 MB ⚠️ Close some apps.
+💾 Disk Space: 26 GB free ✅ Plenty of space.
+🌐 Internet: ❌ No connection!
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        5 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+     4.4 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=95 --time-ticks-at-unix-epoch=-1748528939971158 --launch-time-ticks=183217271 --shared-files --field-trial-handle=1718379636,r,8439260075231561380,6398305348923619709,262144 --variations-seed-version=20250528-050057.395000 --seatbelt-client=682
+     0.7 /usr/sbin/notifyd
+     0.7 /usr/libexec/opendirectoryd
+     0.5 /usr/libexec/locationd
+     0.4 /usr/sbin/cfprefsd daemon
+     0.4 /usr/libexec/replayd
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
