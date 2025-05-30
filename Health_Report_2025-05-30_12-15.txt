@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-30
+
+🕒 Uptime:  3:11 ✅ No restart needed.
+🧠 Memory: 28 MB ⚠️ Close some apps.
+💾 Disk Space: 16 GB free ✅ Plenty of space.
+🌐 Internet: ❌ No connection!
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        5 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    23.5 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+    11.3 /usr/sbin/coreaudiod
+     9.6 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+     9.1 /System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird
+     2.7 /usr/libexec/nsurlsessiond
+     1.3 /System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.iCloudDriveFileProvider.appex/Contents/MacOS/com.apple.CloudDocs.iCloudDriveFileProvider
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
