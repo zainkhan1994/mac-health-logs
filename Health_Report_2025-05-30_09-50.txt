@@ -10,12 +10,12 @@
 🔒 FileVault: FileVault is Off.
 
 🔥 Top 5 CPU-consuming apps:
-   104.8 /Applications/Rewind.app/Contents/MacOS/Rewind
-    88.8 log show --predicate eventMessage contains "crash" --last 1d
-    78.8 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
-    69.8 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
-    29.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
-    27.2 /Applications/ChatGPT.app/Contents/MacOS/ChatGPT
+    46.6 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+    44.6 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=408 --time-ticks-at-unix-epoch=-1748613838104837 --launch-time-ticks=2486234283 --shared-files --metrics-shmem-handle=1752395122,r,13334689598402820829,2240433437318172347,2097152 --field-trial-handle=1718379636,r,15373105115439005523,504882397965667048,262144 --variations-seed-version=20250529-180041.093000 --seatbelt-client=558
+    41.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    37.6 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=222 --time-ticks-at-unix-epoch=-1748613838104837 --launch-time-ticks=1461138150 --shared-files --metrics-shmem-handle=1752395122,r,7173687029219074901,15468486406092079179,2097152 --field-trial-handle=1718379636,r,15373105115439005523,504882397965667048,262144 --variations-seed-version=20250529-180041.093000 --seatbelt-client=526
+    36.4 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+    31.5 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAMAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=1752395122,r,7830856150615542698,998155931730965239,262144 --field-trial-handle=1718379636,r,15373105115439005523,504882397965667048,262144 --variations-seed-version=20250529-180041.093000 --seatbelt-client=28
 
 🎯 Recommendations:
    - Consider closing memory-hungry apps.
