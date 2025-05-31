@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-31
+
+🕒 Uptime:  3:21 ✅ No restart needed.
+🧠 Memory: 160 MB ⚠️ Close some apps.
+💾 Disk Space: 6223M GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    40.2 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/ApplicationsStorageExtension.appex/Contents/MacOS/ApplicationsStorageExtension -AppleLanguages ("en-US", "en", "fr", "de", "zh-Hans", "zh-Hant", "ja", "es", "it", "nl", "ko", "pt-BR", "pt-PT", "da", "fi", "nb", "sv", "ru", "pl", "tr", "ar", "th", "cs", "hu", "ca", "hr", "el", "he", "ro", "sk", "uk", "id", "ms", "vi", "es-419")
+    37.1 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+    27.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    15.8 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+    14.5 /System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird
+    10.3 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
