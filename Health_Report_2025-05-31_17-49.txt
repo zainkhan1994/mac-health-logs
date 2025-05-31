@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-31
+
+🕒 Uptime:  2:13 ✅ No restart needed.
+🧠 Memory: 20 MB ⚠️ Close some apps.
+💾 Disk Space: 20 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    44.9 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    29.3 /Applications/ChatGPT.app/Contents/MacOS/ChatGPT
+    16.8 /usr/sbin/coreaudiod
+     2.3 /Applications/Rewind.app/Contents/MacOS/Rewind
+     2.2 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/AXVisualSupportAgent.app/Contents/MacOS/AXVisualSupportAgent launchd -s
+     1.3 /usr/sbin/bluetoothd
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
