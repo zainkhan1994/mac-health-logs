@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-31
+
+🕒 Uptime:  1:37 ✅ No restart needed.
+🧠 Memory: 23 MB ⚠️ Close some apps.
+💾 Disk Space: 21 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        5 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    97.3 /usr/libexec/mobileassetd
+    20.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    16.4 /usr/sbin/coreaudiod
+    10.0 top -l 2 -stats pid,command,power -o power -pid 575
+     2.9 /Applications/Rewind.app/Contents/MacOS/Rewind
+     2.5 /System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged -u
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
