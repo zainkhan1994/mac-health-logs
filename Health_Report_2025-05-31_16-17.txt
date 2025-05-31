@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-31
+
+🕒 Uptime: 41 mins ✅ No restart needed.
+🧠 Memory: 29 MB ⚠️ Close some apps.
+💾 Disk Space: 20 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    99.0 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/current/bin/ruby -W1 --disable=gems,rubyopt /opt/homebrew/Library/Homebrew/brew.rb install ffmpeg
+    82.6 /Applications/Rewind.app/Contents/MacOS/Rewind
+    31.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    15.1 /usr/sbin/coreaudiod
+     3.2 /usr/libexec/sysmond
+     3.2 /Applications/ChatGPT.app/Contents/MacOS/ChatGPT
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
