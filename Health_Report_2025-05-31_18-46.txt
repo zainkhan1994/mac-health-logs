@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-31
+
+🕒 Uptime:  3:11 ✅ No restart needed.
+🧠 Memory: 35 MB ⚠️ Close some apps.
+💾 Disk Space: 11 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    82.5 /Library/Developer/CommandLineTools/usr/bin/git add chunks_backup
+    37.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    26.9 top -l 2 -stats pid,command,power -o power -pid 619
+    15.9 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/ApplicationsStorageExtension.appex/Contents/MacOS/ApplicationsStorageExtension -AppleLanguages ("en-US", "en", "fr", "de", "zh-Hans", "zh-Hant", "ja", "es", "it", "nl", "ko", "pt-BR", "pt-PT", "da", "fi", "nb", "sv", "ru", "pl", "tr", "ar", "th", "cs", "hu", "ca", "hr", "el", "he", "ro", "sk", "uk", "id", "ms", "vi", "es-419")
+    12.1 /usr/sbin/coreaudiod
+    11.5 /System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
