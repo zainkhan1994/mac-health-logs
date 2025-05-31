@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-31
+
+🕒 Uptime:  2:46 ✅ No restart needed.
+🧠 Memory: 348 MB ⚠️ Close some apps.
+💾 Disk Space: 15 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    15.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    14.1 /Applications/ChatGPT.app/Contents/MacOS/ChatGPT
+     4.6 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+     3.8 /System/Library/CoreServices/talagentd
+     2.3 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent
+     2.2 /System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
