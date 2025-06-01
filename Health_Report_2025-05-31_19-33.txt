@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-05-31
+
+🕒 Uptime:  3:57 ✅ No restart needed.
+🧠 Memory: 33 MB ⚠️ Close some apps.
+💾 Disk Space: 12 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    25.3 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+    20.7 /usr/libexec/nsurlsessiond
+     8.1 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN com.apple.bcmwlan 0x100000adc com.apple.DriverKit-AppleBCMWLAN
+     7.4 /Applications/ChatGPT.app/Contents/MacOS/ChatGPT
+     7.3 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+     4.3 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
