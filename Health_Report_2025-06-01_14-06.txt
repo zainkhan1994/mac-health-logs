@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-06-01
+
+🕒 Uptime:  2:27 ✅ No restart needed.
+🧠 Memory: 15 MB ⚠️ Close some apps.
+💾 Disk Space: 19 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    42.0 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    17.5 /usr/sbin/coreaudiod
+     5.4 /usr/libexec/duetexpertd
+     5.1 /Applications/ChatGPT.app/Contents/MacOS/ChatGPT
+     4.9 /System/Library/CoreServices/talagentd
+     3.4 /Applications/tomatobell.app/Contents/MacOS/tomatobell
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
