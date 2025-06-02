@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-06-02
+
+🕒 Uptime: 1 day ✅ No restart needed.
+🧠 Memory: 13 MB ⚠️ Close some apps.
+💾 Disk Space: 11 GB free ✅ Plenty of space.
+🌐 Internet: ❌ No connection!
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 68% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    18.1 /Applications/Rewind.app/Contents/MacOS/Rewind
+    13.1 /usr/sbin/coreaudiod
+    13.0 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+     2.7 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --extension-process --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=3112 --time-ticks-at-unix-epoch=-1748795940159367 --launch-time-ticks=51773925633 --shared-files --field-trial-handle=1718379636,r,709283937101804631,4204314466980328801,262144 --variations-seed-version=20250530-130017.710000 --seatbelt-client=236
+     1.6 /Applications/tomatobell.app/Contents/MacOS/tomatobell
+     1.4 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
