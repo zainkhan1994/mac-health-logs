@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-06-02
+
+🕒 Uptime: 22:16 ✅ No restart needed.
+🧠 Memory: 15 MB ⚠️ Close some apps.
+💾 Disk Space: 14 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 65% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    43.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    17.6 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+    17.0 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+     7.9 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAMAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=1718379636,r,709283937101804631,4204314466980328801,262144 --variations-seed-version=20250530-130017.710000 --seatbelt-client=13
+     7.7 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+     6.2 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/136.0.7103.116/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2240 --time-ticks-at-unix-epoch=-1748795940159367 --launch-time-ticks=43166337879 --shared-files --field-trial-handle=1718379636,r,709283937101804631,4204314466980328801,262144 --variations-seed-version=20250530-130017.710000 --seatbelt-client=162
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
