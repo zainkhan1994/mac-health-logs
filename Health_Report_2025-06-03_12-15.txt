@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-06-03
+
+🕒 Uptime:  2:28 ✅ No restart needed.
+🧠 Memory: 17 MB ⚠️ Close some apps.
+💾 Disk Space: 13 GB free ✅ Plenty of space.
+🌐 Internet: ❌ No connection!
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    47.8 /Applications/Rewind.app/Contents/MacOS/Rewind
+    25.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    16.1 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.57/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=375 --time-ticks-at-unix-epoch=-1748962032600976 --launch-time-ticks=7240172513 --shared-files --field-trial-handle=1718379636,r,11980963167580731842,10946928137582718394,262144 --variations-seed-version=20250602-180031.132000 --seatbelt-client=413
+     8.8 /usr/sbin/coreaudiod
+     8.6 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.57/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=297 --time-ticks-at-unix-epoch=-1748962032600976 --launch-time-ticks=6553580823 --shared-files --field-trial-handle=1718379636,r,11980963167580731842,10946928137582718394,262144 --variations-seed-version=20250602-180031.132000 --seatbelt-client=82
+     8.1 top -l 2 -stats pid,command,power -o power -pid 682
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
