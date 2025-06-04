@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-06-04
+
+🕒 Uptime: 1 day ✅ No restart needed.
+🧠 Memory: 14 MB ⚠️ Close some apps.
+💾 Disk Space: 11 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    23.2 top -l 2 -stats pid,command,power -o power -pid 682
+    18.0 /Applications/Rewind.app/Contents/MacOS/Rewind
+    17.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    14.6 /usr/sbin/coreaudiod
+    14.2 /usr/libexec/triald
+     9.1 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
