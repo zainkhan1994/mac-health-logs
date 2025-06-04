@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-06-04
+
+🕒 Uptime: 1 day ✅ No restart needed.
+🧠 Memory: 14 MB ⚠️ Close some apps.
+💾 Disk Space: 10 GB free ✅ Plenty of space.
+🌐 Internet: ❌ No connection!
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 94% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    12.1 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.57/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=3544 --time-ticks-at-unix-epoch=-1748962032600976 --launch-time-ticks=69909436079 --shared-files --field-trial-handle=1718379636,r,11980963167580731842,10946928137582718394,262144 --variations-seed-version=20250602-180031.132000 --seatbelt-client=483
+     5.2 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.57/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1145 --time-ticks-at-unix-epoch=-1748962032600976 --launch-time-ticks=19017887357 --shared-files --field-trial-handle=1718379636,r,11980963167580731842,10946928137582718394,262144 --variations-seed-version=20250602-180031.132000 --seatbelt-client=244
+     5.0 /usr/libexec/dasd
+     4.3 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.57/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAMAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=1718379636,r,11980963167580731842,10946928137582718394,262144 --variations-seed-version=20250602-180031.132000 --seatbelt-client=22
+     2.3 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.57/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --shared-files --field-trial-handle=1718379636,r,11980963167580731842,10946928137582718394,262144 --variations-seed-version=20250602-180031.132000 --seatbelt-client=22
+     1.9 /usr/libexec/UserEventAgent (Aqua)
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
