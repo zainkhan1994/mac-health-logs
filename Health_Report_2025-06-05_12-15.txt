@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-06-05
+
+🕒 Uptime: 2 days ✅ No restart needed.
+🧠 Memory: 15 MB ⚠️ Close some apps.
+💾 Disk Space: 10 GB free ✅ Plenty of space.
+🌐 Internet: ❌ No connection!
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 15% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    11.7 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.57/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=5793 --time-ticks-at-unix-epoch=-1748962032600976 --launch-time-ticks=109291243222 --shared-files --field-trial-handle=1718379636,r,11980963167580731842,10946928137582718394,262144 --variations-seed-version=20250602-180031.132000 --seatbelt-client=628
+     7.8 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.57/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=5810 --time-ticks-at-unix-epoch=-1748962032600976 --launch-time-ticks=109361032839 --shared-files --field-trial-handle=1718379636,r,11980963167580731842,10946928137582718394,262144 --variations-seed-version=20250602-180031.132000 --seatbelt-client=567
+     5.3 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.57/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=5417 --time-ticks-at-unix-epoch=-1748962032600976 --launch-time-ticks=103811531826 --shared-files --field-trial-handle=1718379636,r,11980963167580731842,10946928137582718394,262144 --variations-seed-version=20250602-180031.132000 --seatbelt-client=35
+     2.2 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+     1.7 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.57/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAMAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=1718379636,r,11980963167580731842,10946928137582718394,262144 --variations-seed-version=20250602-180031.132000 --seatbelt-client=22
+     1.0 /usr/sbin/bluetoothd
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
