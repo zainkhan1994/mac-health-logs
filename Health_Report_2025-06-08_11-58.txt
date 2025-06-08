@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-06-08
+
+🕒 Uptime:  2:59 ✅ No restart needed.
+🧠 Memory: 15 MB ⚠️ Close some apps.
+💾 Disk Space: 16 GB free ✅ Plenty of space.
+🌐 Internet: Ping OK ✅ Connected.
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    76.5 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+    43.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+    23.8 /Applications/Rewind.app/Contents/MacOS/Rewind
+    23.8 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+    22.2 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/ApplicationsStorageExtension.appex/Contents/MacOS/ApplicationsStorageExtension -AppleLanguages ("en-US", "en", "fr", "de", "zh-Hans", "zh-Hant", "ja", "es", "it", "nl", "ko", "pt-BR", "pt-PT", "da", "fi", "nb", "sv", "ru", "pl", "tr", "ar", "th", "cs", "hu", "ca", "hr", "el", "he", "ro", "sk", "uk", "id", "ms", "vi", "es-419")
+    21.7 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.69/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=576 --time-ticks-at-unix-epoch=-1749391191161381 --launch-time-ticks=10636307228 --shared-files --metrics-shmem-handle=1752395122,r,2597042657516984505,10738637563806678853,2097152 --field-trial-handle=1718379636,r,12059670419824455449,12057237009483187844,262144 --variations-seed-version=20250606-050035.290000 --seatbelt-client=392
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
