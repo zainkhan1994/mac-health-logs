@@ -1,0 +1,21 @@
+🩺 System Health Report – 2025-06-08
+
+🕒 Uptime:  3:15 ✅ No restart needed.
+🧠 Memory: 24 MB ⚠️ Close some apps.
+💾 Disk Space: 35 GB free ✅ Plenty of space.
+🌐 Internet: ❌ No connection!
+📦 Crashes: None ✅ No issues.
+⚙️ Startup Items:        6 ✅ Normal range.
+🔋 Battery: 100% remaining.
+🔒 FileVault: FileVault is Off.
+
+🔥 Top 5 CPU-consuming apps:
+    97.5 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+    58.7 /System/Library/PrivateFrameworks/StorageManagement.framework/PlugIns/ApplicationsStorageExtension.appex/Contents/MacOS/ApplicationsStorageExtension -AppleLanguages ("en-US", "en", "fr", "de", "zh-Hans", "zh-Hant", "ja", "es", "it", "nl", "ko", "pt-BR", "pt-PT", "da", "fi", "nb", "sv", "ru", "pl", "tr", "ar", "th", "cs", "hu", "ca", "hr", "el", "he", "ro", "sk", "uk", "id", "ms", "vi", "es-419")
+    33.4 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.69/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --enable-dinosaur-easter-egg-alt-images --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=427 --time-ticks-at-unix-epoch=-1749391191161381 --launch-time-ticks=8799279564 --shared-files --metrics-shmem-handle=1752395122,r,4388374468168879898,1753884432148409403,2097152 --field-trial-handle=1718379636,r,12059670419824455449,12057237009483187844,262144 --variations-seed-version=20250606-050035.290000 --seatbelt-client=370
+    25.8 top -l 2 -stats pid,command,power -o power -pid 633
+    23.0 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+     8.1 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/137.0.7151.69/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --metrics-client-id=e38aba6a-6ceb-48ca-8622-685685e9ddaa --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAMAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=1752395122,r,10818098217535316607,13367763819378729840,262144 --field-trial-handle=1718379636,r,12059670419824455449,12057237009483187844,262144 --variations-seed-version=20250606-050035.290000 --seatbelt-client=19
+
+🎯 Recommendations:
+   - Consider closing memory-hungry apps.
