@@ -30,7 +30,7 @@ function MindMapViewerInner({
   nodes: initialNodes = [],
   edges: initialEdges = [],
   onNodeClick
-}: Omit<MindMapViewerProps, 'config'>) {
+}: MindMapViewerProps) {
   const [nodes, setNodes] = useState<Node[]>(initialNodes);
   const [edges, setEdges] = useState<Edge[]>(initialEdges);
   const [selectedNode, setSelectedNode] = useState<Node | null>(null);
