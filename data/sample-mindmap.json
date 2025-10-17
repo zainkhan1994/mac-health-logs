@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "type": "mindmapNode",
+      "position": { "x": 250, "y": 50 },
+      "data": {
+        "label": "Blueprint",
+        "details": "Project root and top-level concepts",
+        "childrenIds": ["a","b","c"],
+        "collapsed": false
+      }
+    },
+    {
+      "id": "a",
+      "type": "mindmapNode",
+      "position": { "x": 100, "y": 200 },
+      "data": {
+        "label": "Architecture",
+        "details": "High-level architecture and patterns",
+        "childrenIds": ["a1","a2"],
+        "collapsed": false
+      }
+    },
+    {
+      "id": "a1",
+      "type": "mindmapNode",
+      "position": { "x": 40, "y": 340 },
+      "data": { "label": "Frontend", "details": "React, components", "collapsed": false }
+    },
+    {
+      "id": "a2",
+      "type": "mindmapNode",
+      "position": { "x": 160, "y": 340 },
+      "data": { "label": "Backend", "details": "API, auth", "collapsed": false }
+    },
+    {
+      "id": "b",
+      "type": "mindmapNode",
+      "position": { "x": 300, "y": 200 },
+      "data": {
+        "label": "Data",
+        "details": "Models, storage, migrations",
+        "childrenIds": ["b1"],
+        "collapsed": false
+      }
+    },
+    { "id": "b1", "type": "mindmapNode", "position": { "x": 300, "y": 340 }, "data": { "label": "Schema", "details": "Database schema" } },
+    {
+      "id": "c",
+      "type": "mindmapNode",
+      "position": { "x": 480, "y": 200 },
+      "data": {
+        "label": "UX",
+        "details": "Design & accessibility",
+        "childrenIds": ["c1","c2"],
+        "collapsed": false
+      }
+    },
+    { "id": "c1", "type": "mindmapNode", "position": { "x": 420, "y": 340 }, "data": { "label": "Accessibility", "details": "ARIA, keyboard" } },
+    { "id": "c2", "type": "mindmapNode", "position": { "x": 540, "y": 340 }, "data": { "label": "Design System", "details": "Tokens & components" } }
+  ],
+  "edges": [
+    { "id": "e-root-a", "source": "root", "target": "a", "animated": false },
+    { "id": "e-root-b", "source": "root", "target": "b", "animated": false },
+    { "id": "e-root-c", "source": "root", "target": "c", "animated": false },
+    { "id": "e-a-a1", "source": "a", "target": "a1" },
+    { "id": "e-a-a2", "source": "a", "target": "a2" },
+    { "id": "e-b-b1", "source": "b", "target": "b1" },
+    { "id": "e-c-c1", "source": "c", "target": "c1" },
+    { "id": "e-c-c2", "source": "c", "target": "c2" }
+  ]
+}

@@ -93,3 +93,47 @@ If you'd like to improve the health monitoring script or add new metrics, feel f
 ## 📜 License
 
 This repository contains personal system health logs for monitoring and analysis purposes.
+
+---
+
+## 🗺️ Mind Map Viewer
+
+This repository now includes an interactive mind map viewer built with React and ReactFlow.
+
+### Setup
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Start the development server:
+```bash
+npm run dev
+```
+
+3. Open your browser and navigate to `http://localhost:5173/mindmap-demo`
+
+### Building for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+### Features
+
+- **Interactive Navigation**: Zoom in/out with mouse wheel or +/- keys
+- **Pan Controls**: Drag the canvas or use arrow keys to navigate
+- **Node Interaction**: Click nodes to view details in the side panel
+- **Keyboard Accessibility**: Full keyboard navigation support
+- **Expand/Collapse**: Toggle node subtrees to focus on specific areas
+- **Responsive Design**: Works on desktop and mobile devices
+
+### Mind Map Components
+
+- `src/components/MindMapViewer.tsx` - Main viewer component
+- `src/components/MindMapNode.tsx` - Custom node renderer
+- `src/pages/MindMapDemo.tsx` - Demo page
+- `src/styles/mindmap.css` - Styling for the mind map
+- `data/sample-mindmap.json` - Sample mind map data
