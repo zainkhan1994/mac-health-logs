@@ -11,7 +11,6 @@ export default function MindMapDemo() {
       <MindMapViewer
         nodes={sample.nodes}
         edges={sample.edges}
-        config={{ initialZoom: 1, layout: "default", showLabels: true }}
         onNodeClick={(node) => {
           console.log("Node clicked:", node);
         }}

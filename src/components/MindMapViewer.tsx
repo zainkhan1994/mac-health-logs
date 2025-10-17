@@ -18,16 +18,9 @@ import "reactflow/dist/style.css";
 import "../styles/mindmap.css";
 import MindMapNode from "./MindMapNode";
 
-export type MindMapConfig = {
-  initialZoom?: number;
-  layout?: "dagre" | "force" | "default";
-  showLabels?: boolean;
-};
-
 export type MindMapViewerProps = {
   nodes?: Node<any>[];
   edges?: Edge[];
-  config?: MindMapConfig;
   onNodeClick?: (node: Node<any>) => void;
 };
 
