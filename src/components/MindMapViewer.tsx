@@ -33,11 +33,11 @@ export type MindMapViewerProps = {
 
 const nodeTypes = { mindmapNode: MindMapNode };
 
-export default function MindMapViewer({
+function MindMapViewerInner({
   nodes: initialNodes = [],
   edges: initialEdges = [],
   onNodeClick
-}: MindMapViewerProps) {
+}: Omit<MindMapViewerProps, 'config'>) {
   const [nodes, setNodes] = useState<Node[]>(initialNodes);
   const [edges, setEdges] = useState<Edge[]>(initialEdges);
   const [selectedNode, setSelectedNode] = useState<Node | null>(null);
@@ -118,49 +118,64 @@ export default function MindMapViewer({
   }, [nodes]);
 
   return (
-    <ReactFlowProvider>
-      <div className="mindmap-container">
-        <div className="mindmap-canvas" role="region" aria-label="Mind map viewer">
-          <ReactFlow
-            nodes={visibleNodes}
-            edges={edges}
-            nodeTypes={nodeTypes}
-            fitView
-            minZoom={0.1}
-            maxZoom={2.5}
-            onNodeClick={handleNodeClick}
-            onNodesChange={onNodesChange}
-            onEdgesChange={onEdgesChange}
-            onConnect={onConnect}
-            panOnScroll
-            zoomOnScroll
-            panOnDrag
-            zoomOnPinch
-            attributionPosition="bottom-left"
-          >
-            <Background />
-            <MiniMap nodeStrokeColor={(n) => (n.data?.collapsed ? "#ff0072" : "#0047ff")} />
-            <Controls showInteractive={false} />
-          </ReactFlow>
-        </div>
-
-        <aside className="mindmap-sidepanel" aria-live="polite">
-          {selectedNode ? (
-            <div className="node-details">
-              <h3>{selectedNode.data?.label}</h3>
-              <div className="node-meta">{selectedNode.data?.details}</div>
-              <div className="node-actions">
-                <button onClick={() => toggleCollapse(selectedNode.id)}>
-                  {selectedNode.data?.collapsed ? "Expand children" : "Collapse children"}
-                </button>
-                <button onClick={() => setSelectedNode(null)}>Close</button>
-              </div>
-            </div>
-          ) : (
-            <div className="node-placeholder">Click a node to see details</div>
-          )}
-        </aside>
+    <div className="mindmap-container">
+      <div className="mindmap-canvas" role="region" aria-label="Mind map viewer">
+        <ReactFlow
+          nodes={visibleNodes}
+          edges={edges}
+          nodeTypes={nodeTypes}
+          fitView
+          minZoom={0.1}
+          maxZoom={2.5}
+          onNodeClick={handleNodeClick}
+          onNodesChange={onNodesChange}
+          onEdgesChange={onEdgesChange}
+          onConnect={onConnect}
+          panOnScroll
+          zoomOnScroll
+          panOnDrag
+          zoomOnPinch
+          attributionPosition="bottom-left"
+        >
+          <Background />
+          <MiniMap nodeStrokeColor={(n) => (n.data?.collapsed ? "#ff0072" : "#0047ff")} />
+          <Controls showInteractive={false} />
+        </ReactFlow>
       </div>
+
+      <aside className="mindmap-sidepanel" aria-live="polite">
+        {selectedNode ? (
+          <div className="node-details">
+            <h3>{selectedNode.data?.label}</h3>
+            <div className="node-meta">{selectedNode.data?.details}</div>
+            <div className="node-actions">
+              <button onClick={() => toggleCollapse(selectedNode.id)}>
+                {selectedNode.data?.collapsed ? "Expand children" : "Collapse children"}
+              </button>
+              <button onClick={() => setSelectedNode(null)}>Close</button>
+            </div>
+          </div>
+        ) : (
+          <div className="node-placeholder">Click a node to see details</div>
+        )}
+      </aside>
+    </div>
+  );
+}
+
+export default function MindMapViewer({
+  nodes: initialNodes = [],
+  edges: initialEdges = [],
+  onNodeClick
+}: MindMapViewerProps) {
+
+  return (
+    <ReactFlowProvider>
+      <MindMapViewerInner 
+        nodes={initialNodes}
+        edges={initialEdges}
+        onNodeClick={onNodeClick}
+      />
     </ReactFlowProvider>
   );
 }
